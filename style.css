@@ -1,12 +1,15 @@
+body {
+  width: 400px;
+}
+
 .exchange-box {
   border: 1px solid black;
-  width: 400px;
 }
 
 /* Style The Dropdown Button */
 .dropbtn {
   width: 100%;
-  background-color: #4caf50;
+  background-color: #3c91ff;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -40,19 +43,19 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+/* dropdown-content 마우스 오버 시, 배경컬러 변경됨 */
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #3c91ff;
 }
 
-/* Show the dropdown menu on hover */
+/* dropdown-content 마우스 오버 시, 메뉴보임 */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #3c91ff;
 }
 
 .input-area {

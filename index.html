@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>환전</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
   </head>
   <body>
     <div class="exchange-box">
@@ -17,10 +16,10 @@
           <a href="#">KRW</a>
           <a href="#">VND</a>
         </div>
-        <div class="input-area">
-          <input type="number" />
-          <div>달러</div>
-        </div>
+      </div>
+      <div class="input-area">
+        <input type="number" id="from-input" onkeyup="convert()" />
+        <div>달러</div>
       </div>
     </div>
 
@@ -34,11 +33,13 @@
           <a href="#">KRW</a>
           <a href="#">VND</a>
         </div>
-        <div class="input-area">
-          <input type="number" />
-          <div>달러</div>
-        </div>
+      </div>
+      <div class="input-area">
+        <input type="number" id="to-input" />
+        <div>달러</div>
       </div>
     </div>
+
+    <script src="main.js" defer></script>
   </body>
 </html>
